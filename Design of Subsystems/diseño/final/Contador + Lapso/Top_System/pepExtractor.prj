@@ -1,8 +1,0 @@
-work	"FSM_lapso.vhd"
-work	"Top_Systmem.vhd"
-work	"antirebote.vhd"
-work	"bin2bcd.vhd"
-work	"counter_model.vhd"
-work	"ipcore_dir/DCM.vhd"
-work	"ipcore_dir/DCM/example_design/DCM_exdes.vhd"
-work	"ipcore_dir/Prescaler100to1.vhd"
