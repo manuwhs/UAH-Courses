@@ -1,0 +1,61 @@
+onerror {resume}
+quietly WaveActivateNextPane {} 0
+add wave -noupdate -format Literal -radix decimal /filtro_fir_mac_tb2/datain
+add wave -noupdate -format Logic /filtro_fir_mac_tb2/clk
+add wave -noupdate -format Logic /filtro_fir_mac_tb2/rst
+add wave -noupdate -format Logic /filtro_fir_mac_tb2/datain_valid
+add wave -noupdate -format Literal -radix decimal /filtro_fir_mac_tb2/dataout
+add wave -noupdate -format Logic /filtro_fir_mac_tb2/dataout_valid
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_0
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_1
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_2
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_3
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_4
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_5
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_6
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_7
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_8
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_9
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_10
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_11
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_12
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_13
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_14
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_15
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_16
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_17
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_18
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_19
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_20
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_21
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_22
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_23
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_24
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_25
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_26
+add wave -noupdate -group Registro_M -format Literal -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_registro_m_27
+add wave -noupdate -format Literal -label Addr -radix unsigned /filtro_fir_mac_tb2/uut/control_inst_addr
+add wave -noupdate -format Literal -label {Retardo del FSM} -radix unsigned /filtro_fir_mac_tb2/uut/control_inst_retardo
+add wave -noupdate -format Literal -label Salida_ROM -radix decimal /filtro_fir_mac_tb2/uut/douta
+add wave -noupdate -format Literal -label Salida_reg -radix decimal /filtro_fir_mac_tb2/uut/registro_inst_reg_out
+add wave -noupdate -format Literal -label Sumando -radix decimal /filtro_fir_mac_tb2/uut/sumando
+add wave -noupdate -format Logic -label CE_ROM /filtro_fir_mac_tb2/uut/control_inst_ce_rom_pack_15
+add wave -noupdate -format Logic -label CE_MULT /filtro_fir_mac_tb2/uut/control_inst_ce_mult_pack_4
+add wave -noupdate -format Logic -label CE_ACUM /filtro_fir_mac_tb2/uut/control_inst_ce_acum_3213
+TreeUpdate [SetDefaultTree]
+WaveRestoreCursors {{Cursor 1} {2132742 ps} 0}
+configure wave -namecolwidth 403
+configure wave -valuecolwidth 38
+configure wave -justifyvalue left
+configure wave -signalnamewidth 0
+configure wave -snapdistance 10
+configure wave -datasetprefix 0
+configure wave -rowmargin 4
+configure wave -childrowmargin 2
+configure wave -gridoffset 0
+configure wave -gridperiod 1
+configure wave -griddelta 40
+configure wave -timeline 0
+configure wave -timelineunits ns
+update
+WaveRestoreZoom {3895582 ps} {4323786 ps}

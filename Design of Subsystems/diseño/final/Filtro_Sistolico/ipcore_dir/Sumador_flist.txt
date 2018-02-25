@@ -1,0 +1,15 @@
+# Output products list for <Sumador>
+Sumador.asy
+Sumador.gise
+Sumador.ngc
+Sumador.sym
+Sumador.vhd
+Sumador.vho
+Sumador.xco
+Sumador.xise
+Sumador\doc\c_addsub_v11_0_vinfo.html
+Sumador\doc\ds214_addsub.pdf
+Sumador_flist.txt
+Sumador_readme.txt
+Sumador_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

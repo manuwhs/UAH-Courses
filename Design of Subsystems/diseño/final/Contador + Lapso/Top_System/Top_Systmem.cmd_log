@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "F:/Top_System/Top_Systmem.xst" -ofn "F:/Top_System/Top_Systmem.syr" 
+xst -intstyle ise -ifn "F:/Top_System/Top_Systmem.xst" -ofn "F:/Top_System/Top_Systmem.syr" 
+xst -intstyle ise -ifn "F:/Top_System/Top_Systmem.xst" -ofn "F:/Top_System/Top_Systmem.syr" 
+xst -intstyle ise -ifn "C:/Users/manuel/Desktop/final/Top_System/Top_System/Top_Systmem.xst" -ofn "C:/Users/manuel/Desktop/final/Top_System/Top_System/Top_Systmem.syr" 
+xst -intstyle ise -ifn "C:/Users/manuel/Desktop/final/Top_System/Top_System/Top_Systmem.xst" -ofn "C:/Users/manuel/Desktop/final/Top_System/Top_System/Top_Systmem.syr" 
+xst -intstyle ise -ifn "C:/Users/manuel/Desktop/final/Top_System/Top_System/Top_Systmem.xst" -ofn "C:/Users/manuel/Desktop/final/Top_System/Top_System/Top_Systmem.syr" 
+xst -intstyle ise -ifn "C:/Users/manuel/Desktop/final/Top_System/Top_System/Top_Systmem.xst" -ofn "C:/Users/manuel/Desktop/final/Top_System/Top_System/Top_Systmem.syr" 
+xst -intstyle ise -ifn "C:/Users/manuel/Desktop/final/Top_System/Top_System/Top_Systmem.xst" -ofn "C:/Users/manuel/Desktop/final/Top_System/Top_System/Top_Systmem.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Atlys_crono.ucf -p xc6slx45-csg324-3 Top_Systmem.ngc Top_Systmem.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_Systmem_map.ncd Top_Systmem.ngd Top_Systmem.pcf 
+par -w -intstyle ise -ol high -mt off Top_Systmem_map.ncd Top_Systmem.ncd Top_Systmem.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top_Systmem.twx Top_Systmem.ncd -o Top_Systmem.twr Top_Systmem.pcf -ucf Atlys_crono.ucf 
+netgen -intstyle ise -s 3  -pcf Top_Systmem.pcf -rpw 100 -tpw 0 -ar Structure -tm Top_Systmem -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim Top_Systmem.ncd Top_Systmem_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/manuel/Desktop/final/Top_System/Top_System/Top_Systmem.xst" -ofn "C:/Users/manuel/Desktop/final/Top_System/Top_System/Top_Systmem.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Atlys_crono.ucf -p xc6slx45-csg324-3 Top_Systmem.ngc Top_Systmem.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_Systmem_map.ncd Top_Systmem.ngd Top_Systmem.pcf 
+par -w -intstyle ise -ol high -mt off Top_Systmem_map.ncd Top_Systmem.ncd Top_Systmem.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top_Systmem.twx Top_Systmem.ncd -o Top_Systmem.twr Top_Systmem.pcf -ucf Atlys_crono.ucf 
+bitgen -intstyle ise -f Top_Systmem.ut Top_Systmem.ncd 
+netgen -intstyle ise -s 3  -pcf Top_Systmem.pcf -rpw 100 -tpw 0 -ar Structure -tm Top_Systmem -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim Top_Systmem.ncd Top_Systmem_timesim.vhd 

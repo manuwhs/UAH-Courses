@@ -1,0 +1,8 @@
+[Inputs]
+rst
+clk
+=Data_bin[5:0]=
+[Outputs]
+=Unidades[3:0]=
+=Decenas[3:0]=
+[BiDir]

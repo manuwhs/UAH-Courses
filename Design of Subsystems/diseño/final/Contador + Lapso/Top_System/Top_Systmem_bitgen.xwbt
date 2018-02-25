@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\manuel\Desktop\final\Top_System\Top_System\Top_Systmem.ncd
+OUTFILE=C:\Users\manuel\Desktop\final\Top_System\Top_System\Top_Systmem.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg324
+WORKINGDIR=C:\Users\manuel\Desktop\final\Top_System\Top_System
+LICENSE=WebPack
+USER_INFO=210680555_0_0_054

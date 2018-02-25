@@ -1,0 +1,8 @@
+vhdl work "ipcore_dir/Prescaler100to1.vhd"
+vhdl work "antirebote.vhd"
+vhdl work "FSM_lapso.vhd"
+vhdl work "ipcore_dir/DCM.vhd"
+vhdl work "ipcore_dir/DCM/example_design/DCM_exdes.vhd"
+vhdl work "counter_model.vhd"
+vhdl work "bin2bcd.vhd"
+vhdl work "Top_Systmem.vhd"

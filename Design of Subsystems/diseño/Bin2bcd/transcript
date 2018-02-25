@@ -1,0 +1,33 @@
+# Reading C:/EDA/modeltech_6.5d/tcl/vsim/pref.tcl 
+# //  ModelSim SE 6.5d Nov 18 2009 
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do {bin2bcd_tb.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE vcom 6.5d Compiler 2009.11 Nov 18 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity bin2bcd
+# -- Compiling architecture behavioral of bin2bcd
+# Model Technology ModelSim SE vcom 6.5d Compiler 2009.11 Nov 18 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity bin2bcd_tb
+# -- Compiling architecture behavior of bin2bcd_tb
+# vsim -lib work -voptargs=\"+acc\" -t 1ps work.bin2bcd_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.bin2bcd_tb(behavior)#1
+# Loading ieee.std_logic_arith(body)
+# Loading work.bin2bcd(behavioral)#1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body

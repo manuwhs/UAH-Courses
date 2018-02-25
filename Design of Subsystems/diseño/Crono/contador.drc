@@ -1,0 +1,8 @@
+Release 13.2 Drc O.61xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Tue Oct 16 14:00:35 2012
+
+drc -z Contador.ncd Contador.pcf
+
+DRC detected 0 errors and 0 warnings.

@@ -1,0 +1,50 @@
+onerror {resume}
+quietly WaveActivateNextPane {} 0
+add wave -noupdate -expand -group Filtro_FIR_MAC
+add wave -noupdate -group Filtro_FIR_MAC -format Logic -label clk /filtro_fir_mac_tb/clk
+add wave -noupdate -group Filtro_FIR_MAC -format Logic -label rst /filtro_fir_mac_tb/rst
+add wave -noupdate -group Filtro_FIR_MAC -format Logic -label datain_valid /filtro_fir_mac_tb/datain_valid
+add wave -noupdate -group Filtro_FIR_MAC -format Literal -label datain -radix decimal /filtro_fir_mac_tb/datain
+add wave -noupdate -group Filtro_FIR_MAC -format Literal -label dataout -radix decimal /filtro_fir_mac_tb/dataout
+add wave -noupdate -group Filtro_FIR_MAC -color Red -format Logic -label dataout_valid /filtro_fir_mac_tb/dataout_valid
+add wave -noupdate -expand -group Registro_xn
+add wave -noupdate -group Registro_xn -format Literal -label Addr_REG -radix decimal /filtro_fir_mac_tb/uut/registro_inst/addr
+add wave -noupdate -group Registro_xn -color Cyan -format Literal -label Registro_xn -radix decimal /filtro_fir_mac_tb/uut/registro_inst/registro_m
+add wave -noupdate -group Registro_xn -format Literal -label Salida_reg -radix decimal /filtro_fir_mac_tb/uut/registro_inst/reg_out
+add wave -noupdate -expand -group ROM
+add wave -noupdate -group ROM -format Literal -label Addr_ROM -radix decimal /filtro_fir_mac_tb/uut/rom_inst/addra
+add wave -noupdate -group ROM -format Literal -label Salida_ROM -radix decimal /filtro_fir_mac_tb/uut/rom_inst/douta
+add wave -noupdate -expand -group Multiplicador
+add wave -noupdate -group Multiplicador -format Literal -label REG_xn -radix decimal /filtro_fir_mac_tb/uut/multiplicador_inst/a
+add wave -noupdate -group Multiplicador -format Literal -label ROM -radix decimal /filtro_fir_mac_tb/uut/multiplicador_inst/b
+add wave -noupdate -group Multiplicador -format Literal -label Producto -radix decimal /filtro_fir_mac_tb/uut/multiplicador_inst/p
+add wave -noupdate -expand -group Acumulador
+add wave -noupdate -group Acumulador -format Literal -label Sumando -radix decimal /filtro_fir_mac_tb/uut/acumulador_inst/sumando
+add wave -noupdate -group Acumulador -format Literal -label Acumulacion -radix decimal /filtro_fir_mac_tb/uut/acumulador_inst/resultado_d1
+add wave -noupdate -group Acumulador -format Literal -label {resultado acum} -radix decimal /filtro_fir_mac_tb/uut/acumulador_inst/resultado
+add wave -noupdate -group Acumulador -format Logic -label Clear /filtro_fir_mac_tb/uut/acumulador_inst/clear
+add wave -noupdate -expand -group FSM_Control
+add wave -noupdate -group FSM_Control -format Literal -label addr_1 -radix decimal /filtro_fir_mac_tb/uut/control_inst/addr_1
+add wave -noupdate -group FSM_Control -format Literal -label Addr -radix decimal /filtro_fir_mac_tb/uut/control_inst/addr
+add wave -noupdate -group FSM_Control -format Literal -label Estado /filtro_fir_mac_tb/uut/control_inst/estado
+add wave -noupdate -group FSM_Control -format Logic -label CE_ROM /filtro_fir_mac_tb/uut/control_inst/ce_rom
+add wave -noupdate -group FSM_Control -format Logic -label CE_REG /filtro_fir_mac_tb/uut/control_inst/ce_reg
+add wave -noupdate -group FSM_Control -format Logic -label CE_Mult /filtro_fir_mac_tb/uut/control_inst/ce_mult
+add wave -noupdate -group FSM_Control -format Logic -label CE_ACUM /filtro_fir_mac_tb/uut/control_inst/ce_acum
+TreeUpdate [SetDefaultTree]
+WaveRestoreCursors {datain_valid {695000 ps} 1} {dataout_valid {775000 ps} 1}
+configure wave -namecolwidth 140
+configure wave -valuecolwidth 60
+configure wave -justifyvalue left
+configure wave -signalnamewidth 0
+configure wave -snapdistance 10
+configure wave -datasetprefix 0
+configure wave -rowmargin 4
+configure wave -childrowmargin 2
+configure wave -gridoffset 0
+configure wave -gridperiod 1
+configure wave -griddelta 40
+configure wave -timeline 0
+configure wave -timelineunits ns
+update
+WaveRestoreZoom {606529 ps} {849815 ps}

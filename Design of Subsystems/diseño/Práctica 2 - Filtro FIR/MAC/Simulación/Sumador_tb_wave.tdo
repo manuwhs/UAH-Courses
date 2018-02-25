@@ -1,0 +1,25 @@
+onerror {resume}
+quietly WaveActivateNextPane {} 0
+add wave -noupdate -format Logic -label clk -radix decimal /sumador_tb/clk
+add wave -noupdate -format Literal -label a -radix decimal /sumador_tb/a
+add wave -noupdate -format Literal -label b -radix decimal /sumador_tb/b
+add wave -noupdate -format Logic -label ce -radix decimal /sumador_tb/ce
+add wave -noupdate -format Logic -label sclr -radix decimal /sumador_tb/sclr
+add wave -noupdate -format Literal -label s -radix decimal /sumador_tb/s
+TreeUpdate [SetDefaultTree]
+WaveRestoreCursors {{Cursor 1} {85000 ps} 1} {{Cursor 2} {95000 ps} 1} {{Cursor 3} {115000 ps} 1} {{Cursor 4} {145000 ps} 1} {{Cursor 5} {165000 ps} 1} {{Cursor 6} {175000 ps} 1}
+configure wave -namecolwidth 62
+configure wave -valuecolwidth 40
+configure wave -justifyvalue left
+configure wave -signalnamewidth 0
+configure wave -snapdistance 10
+configure wave -datasetprefix 0
+configure wave -rowmargin 4
+configure wave -childrowmargin 2
+configure wave -gridoffset 0
+configure wave -gridperiod 1
+configure wave -griddelta 40
+configure wave -timeline 0
+configure wave -timelineunits ns
+update
+WaveRestoreZoom {58140 ps} {187118 ps}

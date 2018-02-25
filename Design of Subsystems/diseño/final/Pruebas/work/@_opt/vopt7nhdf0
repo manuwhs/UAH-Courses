@@ -1,0 +1,37 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\manuel\Desktop\final\Pruebas
+T_opt
+Z1 VBQdiLfgI8AeJmca]M1aJZ3
+Z2 04 8 10 work prueba_1 behavioral 1
+Z3 =1-001b9ef083f6-50ac2351-326-fa0
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.5d;42
+Eprueba_1
+Z7 w1353458490
+Z8 DPx26 D:\Programas\Modelsim\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+31
+Z9 8Prueba_1.vhd
+Z10 FPrueba_1.vhd
+l0
+L32
+Z11 VQnYJo]RIddlWegaU_IMgB0
+Z12 OE;C;6.5d;42
+Z13 o-explicit -93
+Z14 tExplicit 1
+Z15 !s100 jH:DbYUKR]B`jnYh?f^l52
+Abehavioral
+R8
+DEx42 C:\Users\manuel\Desktop\final\Pruebas\work 8 prueba_1 0 22 QnYJo]RIddlWegaU_IMgB0
+31
+Mx1 26 D:\Programas\Modelsim\ieee 14 std_logic_1164
+l45
+L38
+Z16 V2[GDg3MeOf@B1m556XL_g1
+R12
+R13
+R14
+Z17 !s100 >gQF@UehN3_G<f2g_YQGn1

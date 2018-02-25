@@ -1,0 +1,7 @@
+vhdl work "ipcore_dir/DCM_gen.vhd"
+vhdl work "ipcore_dir/DCM_gen/example_design/DCM_gen_exdes.vhd"
+vhdl work "ipcore_dir/Sumador.vhd"
+vhdl work "ipcore_dir/Multiplicador.vhd"
+vhdl work "miscoefs.vhd"
+vhdl work "BLOQUE.vhd"
+vhdl work "Filtro_FIR_Sistolico.vhd"

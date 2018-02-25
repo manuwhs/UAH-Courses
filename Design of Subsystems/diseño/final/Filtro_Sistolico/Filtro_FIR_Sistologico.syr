@@ -1,0 +1,425 @@
+Release 13.2 - xst O.61xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: Filtro_FIR_Sistologico.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Filtro_FIR_Sistologico.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Filtro_FIR_Sistologico"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : Filtro_FIR_Sistologico
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\manuel\Desktop\final\Filtro_Sistolico\ipcore_dir\DCM_gen.vhd" into library work
+Parsing entity <DCM_gen>.
+Parsing architecture <xilinx> of entity <dcm_gen>.
+Parsing VHDL file "C:\Users\manuel\Desktop\final\Filtro_Sistolico\ipcore_dir\DCM_gen\example_design\DCM_gen_exdes.vhd" into library work
+Parsing entity <DCM_gen_exdes>.
+Parsing architecture <xilinx> of entity <dcm_gen_exdes>.
+Parsing VHDL file "C:\Users\manuel\Desktop\final\Filtro_Sistolico\ipcore_dir\Sumador.vhd" into library work
+Parsing entity <Sumador>.
+Parsing architecture <Sumador_a> of entity <sumador>.
+Parsing VHDL file "C:\Users\manuel\Desktop\final\Filtro_Sistolico\ipcore_dir\Multiplicador.vhd" into library work
+Parsing entity <Multiplicador>.
+Parsing architecture <Multiplicador_a> of entity <multiplicador>.
+Parsing VHDL file "C:\Users\manuel\Desktop\final\Filtro_Sistolico\miscoefs.vhd" into library work
+Parsing package <miscoefs>.
+Parsing package body <miscoefs>.
+Parsing VHDL file "C:\Users\manuel\Desktop\final\Filtro_Sistolico\BLOQUE.vhd" into library work
+Parsing entity <BLOQUE>.
+Parsing architecture <Behavioral> of entity <bloque>.
+Parsing VHDL file "C:\Users\manuel\Desktop\final\Filtro_Sistolico\Filtro_FIR_Sistolico.vhd" into library work
+Parsing entity <Filtro_FIR_Sistologico>.
+Parsing architecture <Behavioral> of entity <filtro_fir_sistologico>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Filtro_FIR_Sistologico> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Multiplicador> (architecture <Multiplicador_a>) from library <work>.
+
+Elaborating entity <BLOQUE> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Sumador> (architecture <Sumador_a>) from library <work>.
+WARNING:HDLCompiler:746 - "C:\Users\manuel\Desktop\final\Filtro_Sistolico\BLOQUE.vhd" Line 173: Range is empty (null range)
+
+Elaborating entity <DCM_gen> (architecture <xilinx>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Filtro_FIR_Sistologico>.
+    Related source file is "c:/users/manuel/desktop/final/filtro_sistolico/filtro_fir_sistolico.vhd".
+        M = 4
+INFO:Xst:3210 - "c:/users/manuel/desktop/final/filtro_sistolico/filtro_fir_sistolico.vhd" line 141: Output port <reg_datain_out> of the instance <BLOQUES_gen[3].BLOQUE_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "c:/users/manuel/desktop/final/filtro_sistolico/filtro_fir_sistolico.vhd" line 164: Output port <LOCKED> of the instance <DCM_gen_inst> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <Filtro_FIR_Sistologico> synthesized.
+
+Synthesizing Unit <BLOQUE>.
+    Related source file is "c:/users/manuel/desktop/final/filtro_sistolico/bloque.vhd".
+        lat_sum = 1
+    Found 16-bit register for signal <multiplicando_reg_D<1>>.
+    Found 16-bit register for signal <multiplicando_reg_D<0>>.
+    Found 1-bit register for signal <datainout_r>.
+    Found 1-bit register for signal <propagado>.
+    Summary:
+	inferred  34 D-type flip-flop(s).
+Unit <BLOQUE> synthesized.
+
+Synthesizing Unit <DCM_gen>.
+    Related source file is "c:/users/manuel/desktop/final/filtro_sistolico/ipcore_dir/dcm_gen.vhd".
+    Summary:
+	no macro.
+Unit <DCM_gen> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 16
+ 1-bit register                                        : 8
+ 16-bit register                                       : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/Multiplicador.ngc>.
+Reading core <ipcore_dir/Sumador.ngc>.
+Loading core <Multiplicador> for timing and area information for instance <Primer_Multiplicador>.
+Loading core <Sumador> for timing and area information for instance <Sumador_inst>.
+Loading core <Multiplicador> for timing and area information for instance <Multiplicador_inst>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 136
+ Flip-Flops                                            : 136
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Filtro_FIR_Sistologico> ...
+
+Optimizing unit <BLOQUE> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Filtro_FIR_Sistologico, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 136
+ Flip-Flops                                            : 136
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Filtro_FIR_Sistologico.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 25
+#      GND                         : 10
+#      INV                         : 1
+#      LUT3                        : 4
+#      VCC                         : 10
+# FlipFlops/Latches                : 136
+#      FDC                         : 4
+#      FDCE                        : 132
+# Clock Buffers                    : 1
+#      BUFG                        : 1
+# IO Buffers                       : 36
+#      IBUF                        : 18
+#      IBUFG                       : 1
+#      OBUF                        : 17
+# DCMs                             : 1
+#      DCM_SP                      : 1
+# DSPs                             : 9
+#      DSP48A1                     : 9
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             136  out of  18224     0%  
+ Number of Slice LUTs:                    5  out of   9112     0%  
+    Number used as Logic:                 5  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    137
+   Number with an unused Flip Flop:       1  out of    137     0%  
+   Number with an unused LUT:           132  out of    137    96%  
+   Number of fully used LUT-FF pairs:     4  out of    137     2%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                          36
+ Number of bonded IOBs:                  36  out of    232    15%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+ Number of DSP48A1s:                      9  out of     32    28%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)        | Load  |
+-----------------------------------+------------------------------+-------+
+clk                                | DCM_gen_inst/dcm_sp_inst:CLK0| 145   |
+-----------------------------------+------------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 8.192ns (Maximum Frequency: 122.070MHz)
+   Minimum input arrival time before clock: 5.859ns
+   Maximum output required time after clock: 4.350ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 8.192ns (frequency: 122.070MHz)
+  Total number of paths / destination ports: 603 / 599
+-------------------------------------------------------------------------
+Delay:               8.192ns (Levels of Logic = 1)
+  Source:            Primer_Multiplicador/blk00000003 (DSP)
+  Destination:       BLOQUES_gen[0].BLOQUE_inst/Sumador_inst/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_sp3adsp.i_uniwrap/i_primitive (DSP)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: Primer_Multiplicador/blk00000003 to BLOQUES_gen[0].BLOQUE_inst/Sumador_inst/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_sp3adsp.i_uniwrap/i_primitive
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     DSP48A1:CLK->M35     19   1.227   1.071  blk00000003 (p<35>)
+     end scope: 'Primer_Multiplicador:p<35>'
+     begin scope: 'BLOQUES_gen[0].BLOQUE_inst/Sumador_inst:b<36>'
+     DSP48A1:D0                5.894          U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_sp3adsp.i_uniwrap/i_primitive
+    ----------------------------------------
+    Total                      8.192ns (7.121ns logic, 1.071ns route)
+                                       (86.9% logic, 13.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 311 / 311
+-------------------------------------------------------------------------
+Offset:              5.859ns (Levels of Logic = 2)
+  Source:            datain<15> (PAD)
+  Destination:       Primer_Multiplicador/blk00000003 (DSP)
+  Destination Clock: clk rising
+
+  Data Path: datain<15> to Primer_Multiplicador/blk00000003
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.222   0.683  datain_15_IBUF (datain_15_IBUF)
+     begin scope: 'Primer_Multiplicador:a<17>'
+     DSP48A1:B17               3.954          blk00000003
+    ----------------------------------------
+    Total                      5.859ns (5.176ns logic, 0.683ns route)
+                                       (88.3% logic, 11.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 17 / 17
+-------------------------------------------------------------------------
+Offset:              4.350ns (Levels of Logic = 2)
+  Source:            BLOQUES_gen[3].BLOQUE_inst/Sumador_inst/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_sp3adsp.i_uniwrap/i_primitive (DSP)
+  Destination:       dataout<15> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: BLOQUES_gen[3].BLOQUE_inst/Sumador_inst/U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_sp3adsp.i_uniwrap/i_primitive to dataout<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     DSP48A1:CLK->P30      1   1.200   0.579  U0/xst_addsub/xbip_addsub.i_a_b_nogrowth.i_xbip_addsub/addsub_usecase.i_addsub/i_synth_option.i_synth_model/opt_sp3adsp.i_uniwrap/i_primitive (s<30>)
+     end scope: 'BLOQUES_gen[3].BLOQUE_inst/Sumador_inst:s<30>'
+     OBUF:I->O                 2.571          dataout_15_OBUF (dataout<15>)
+    ----------------------------------------
+    Total                      4.350ns (3.771ns logic, 0.579ns route)
+                                       (86.7% logic, 13.3% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    8.192|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.83 secs
+ 
+--> 
+
+Total memory usage is 164676 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

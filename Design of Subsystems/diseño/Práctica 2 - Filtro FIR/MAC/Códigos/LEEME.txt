@@ -1,0 +1,13 @@
+Se necesitará Regenerar la ROM:
+- Con chip enable
+- Single port rom
+- Anchura de palabra: 16 bits
+- Profundidad 32 (5 bits, de 4 a 0)
+
+- Ponemos los dos 2 posibles coeficientes de la ROM, la de 5 coef de prueba y la que nos piden de 28
+- Para pasar de una a otra hay que cambiar los valores de:
+   - Registro_xn => Generic M = 4 ó M = 27
+   - Control => Genereic addr_max = "00100"  o "11011"
+
+- Ponemos los 2 testbench
+ Siendo el del diseño completo el "filtro_fir_tb"

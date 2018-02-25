@@ -1,0 +1,72 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\alumno\Documents\Marcos y Manuel\Bin2bcd
+T_opt
+V=fWELW]2GhU17e?Ecef0U1
+04 7 10 work bin2bcd behavioral 1
+=1-6cf049e6da72-508683cc-339-14cc
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+Z2 OE;O;6.5d;42
+T_opt1
+VFc1<_`LVf==Ye<43E]VXc1
+04 10 8 work bin2bcd_tb behavior 1
+=1-6cf049e6da72-5086868b-353-12e4
+R1
+n@_opt1
+R2
+Ebin2bcd
+Z3 w1350992420
+Z4 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z5 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z6 8bin2bcd.vhd
+Z7 Fbin2bcd.vhd
+l0
+L34
+VYY@OfK=B4gA`N[Zzmi0=Y0
+Z8 OE;C;6.5d;42
+31
+Z9 o-explicit -93
+Z10 tExplicit 1
+!s100 ZmHC3JXfWH1??oA_i3nfW0
+Abehavioral
+R4
+R5
+DEx4 work 7 bin2bcd 0 22 YY@OfK=B4gA`N[Zzmi0=Y0
+l44
+L42
+VomI;=AhozmMlnTPjzg3Vo0
+!s100 [ACHGRW:PhE[=oF3h3ElH2
+R8
+31
+Z11 Mx2 4 ieee 14 std_logic_1164
+Z12 Mx1 4 ieee 15 std_logic_arith
+R9
+R10
+Ebin2bcd_tb
+Z13 w1350993541
+R5
+Z14 8bin2bcd_tb.vhd
+Z15 Fbin2bcd_tb.vhd
+l0
+L35
+VAm2<eZ>`bEmdz9h1GF70J0
+!s100 =6InizTUoTXozJ>>Y41kO2
+R8
+31
+R9
+R10
+Abehavior
+R5
+Z16 DEx4 work 10 bin2bcd_tb 0 22 Am2<eZ>`bEmdz9h1GF70J0
+l65
+L38
+Z17 V_Z0CXJ_HkKed8jH`keWog3
+Z18 !s100 @>ICL_<GB4[>JCK;z@M[[3
+R8
+31
+Z19 Mx1 4 ieee 14 std_logic_1164
+R9
+R10

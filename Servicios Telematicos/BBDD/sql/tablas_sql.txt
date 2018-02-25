@@ -1,0 +1,20 @@
+Spain	 Alcala de Henares 	NULL	 25 	 48 	 NO 	 12 	 0 
+Spain	 Barcelona 	NULL	 30 	 55 	 S 	  	 0 
+Spain	 Madrid 	NULL	 19 	 20 	 SO 	 10 	 0 
+Spain	 Sevilla 	NULL	 24 	 35 	 S 	 5 	 0 
+Spain	 Valencia 	NULL	 26 	 58 	 SE 	 12 	 0 
+Spain	 Palencia 	NULL	 25 	 48 	 NO 	 12 	 0 
+Spain	 Tenerife 	NULL	 30 	 55 	 S 	 14 	 0 
+Spain	 Alicante 	NULL	 19 	 20 	 SO 	 10 	 0 
+Spain	 Jerez 	NULL	 24 	 35 	 S 	 5 	 0 
+Spain	 Toledo 	NULL	 26 	 58 	 SE 	 12 	 0 
+Spain	 Cuenca 	NULL	 25 	 48 	 NO 	 12 	 0 
+Spain	 Huelva 	NULL	 30 	 55 	 S 	 14 	 0 
+Spain	 Bilbao 	NULL	 19 	 20 	 SO 	 10 	 0 
+Spain	 Ciudad Real 	NULL	 24 	 35 	 S 	 5 	 0 
+Spain	 Cadiz 	NULL	 26 	 58 	 SE 	 12 	 0 
+Spain	 Gerona 	NULL	 25 	 48 	 NO 	 12 	 0 
+Spain	 San Sebastian 	NULL	 30 	 55 	 S 	 14 	 0 
+Spain	 Pamplona 	NULL	 19 	 20 	 SO 	 10 	 0 
+Spain	 Teruel 	NULL	 24 	 35 	 S 	 5 	 0 
+Spain	 Badajoz 	NULL	 26 	 58 	 SE 	 12 	 0 

@@ -1,0 +1,157 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\manuel\Desktop\proyecto final\uart.uvproj
+Project File Date:  12/25/2011
+
+<h2>Output:</h2>
+Build target 'LPC1768_SIM'
+compiling main.c...
+compiling funciones.c...
+funciones.c(145): warning:  #111-D: statement is unreachable
+funciones.c(148): warning:  #111-D: statement is unreachable
+funciones.c(151): warning:  #111-D: statement is unreachable
+funciones.c(154): warning:  #111-D: statement is unreachable
+funciones.c(157): warning:  #111-D: statement is unreachable
+funciones.c(160): warning:  #111-D: statement is unreachable
+funciones.c(163): warning:  #111-D: statement is unreachable
+funciones.c(166): warning:  #111-D: statement is unreachable
+funciones.c(169): warning:  #111-D: statement is unreachable
+funciones.c(172): warning:  #111-D: statement is unreachable
+funciones.c(175): warning:  #111-D: statement is unreachable
+funciones.c(178): warning:  #940-D: missing return statement at end of non-void function "conv7s"
+compiling configuraciones.c...
+compiling Interrup.c...
+linking...
+Program Size: Code=6704 RO-data=236 RW-data=96 ZI-data=1640  
+"uart.axf" - 0 Error(s), 12 Warning(s).
+Build target 'LPC1768_SIM'
+linking...
+Program Size: Code=6704 RO-data=236 RW-data=96 ZI-data=1640  
+"uart.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC1768_SIM'
+compiling funciones.c...
+funciones.c(72): error:  #169: expected a declaration
+funciones.c(119): warning:  #12-D: parsing restarts here after previous syntax error
+funciones.c(120): error:  #18: expected a ")"
+funciones.c(120): error:  #79: expected a type specifier
+funciones.c(120): error:  #101: "LPC_GPIO_TypeDef" has already been declared in the current scope
+funciones.c(120): error:  #141-D: unnamed prototyped parameters not allowed when body is present
+funciones.c(120): error:  #130: expected a "{"
+funciones.c(124): error:  #169: expected a declaration
+funciones.c(163): warning:  #12-D: parsing restarts here after previous syntax error
+funciones.c(164): error:  #169: expected a declaration
+funciones.c(165): error:  #169: expected a declaration
+funciones.c(167): error:  #169: expected a declaration
+funciones.c(168): error:  #169: expected a declaration
+funciones.c(170): error:  #169: expected a declaration
+funciones.c(171): error:  #169: expected a declaration
+funciones.c(173): error:  #169: expected a declaration
+funciones.c(174): error:  #169: expected a declaration
+funciones.c(176): error:  #169: expected a declaration
+funciones.c(178): error:  #169: expected a declaration
+funciones.c(179): error:  #169: expected a declaration
+funciones.c(248): warning:  #12-D: parsing restarts here after previous syntax error
+funciones.c(249): error:  #79: expected a type specifier
+funciones.c(249): error:  #757: variable "buffer_tx" is not a type name
+funciones.c(249): error:  #94-D: the size of an array must be greater than zero
+funciones.c(249): error:  #79: expected a type specifier
+funciones.c(249): error:  #79: expected a type specifier
+funciones.c(249): warning:  #77-D: this declaration has no storage class or type specifier
+funciones.c(249): error:  #147: declaration is incompatible with "void tx_cadena_UART0(char *, char *, char *, int *)" (declared at line 89 of "definiciones.h")
+funciones.c(250): error:  #169: expected a declaration
+funciones.c(251): error:  #169: expected a declaration
+funciones.c(253): error:  #79: expected a type specifier
+funciones.c(253): error:  #757: variable "buffer_tx" is not a type name
+funciones.c(253): error:  #94-D: the size of an array must be greater than zero
+funciones.c(253): error:  #79: expected a type specifier
+Target not created
+Build target 'LPC1768_SIM'
+compiling funciones.c...
+funciones.c(145): warning:  #111-D: statement is unreachable
+funciones.c(148): warning:  #111-D: statement is unreachable
+funciones.c(151): warning:  #111-D: statement is unreachable
+funciones.c(154): warning:  #111-D: statement is unreachable
+funciones.c(157): warning:  #111-D: statement is unreachable
+funciones.c(160): warning:  #111-D: statement is unreachable
+funciones.c(163): warning:  #111-D: statement is unreachable
+funciones.c(166): warning:  #111-D: statement is unreachable
+funciones.c(169): warning:  #111-D: statement is unreachable
+funciones.c(172): warning:  #111-D: statement is unreachable
+funciones.c(175): warning:  #111-D: statement is unreachable
+funciones.c(178): warning:  #940-D: missing return statement at end of non-void function "conv7s"
+linking...
+Program Size: Code=6704 RO-data=236 RW-data=96 ZI-data=1640  
+"uart.axf" - 0 Error(s), 12 Warning(s).
+Build target 'LPC1768_SIM'
+compiling funciones.c...
+funciones.c(148): warning:  #111-D: statement is unreachable
+funciones.c(151): warning:  #111-D: statement is unreachable
+funciones.c(154): warning:  #111-D: statement is unreachable
+funciones.c(157): warning:  #111-D: statement is unreachable
+funciones.c(160): warning:  #111-D: statement is unreachable
+funciones.c(163): warning:  #111-D: statement is unreachable
+funciones.c(166): warning:  #111-D: statement is unreachable
+funciones.c(169): warning:  #111-D: statement is unreachable
+funciones.c(172): warning:  #111-D: statement is unreachable
+funciones.c(175): warning:  #111-D: statement is unreachable
+funciones.c(178): warning:  #111-D: statement is unreachable
+funciones.c(181): warning:  #940-D: missing return statement at end of non-void function "conv7s"
+linking...
+Program Size: Code=6732 RO-data=236 RW-data=96 ZI-data=1640  
+"uart.axf" - 0 Error(s), 12 Warning(s).
+Build target 'LPC1768_SIM'
+compiling main.c...
+compiling funciones.c...
+funciones.c(148): warning:  #111-D: statement is unreachable
+funciones.c(151): warning:  #111-D: statement is unreachable
+funciones.c(154): warning:  #111-D: statement is unreachable
+funciones.c(157): warning:  #111-D: statement is unreachable
+funciones.c(160): warning:  #111-D: statement is unreachable
+funciones.c(163): warning:  #111-D: statement is unreachable
+funciones.c(166): warning:  #111-D: statement is unreachable
+funciones.c(169): warning:  #111-D: statement is unreachable
+funciones.c(172): warning:  #111-D: statement is unreachable
+funciones.c(175): warning:  #111-D: statement is unreachable
+funciones.c(178): warning:  #111-D: statement is unreachable
+funciones.c(181): warning:  #940-D: missing return statement at end of non-void function "conv7s"
+linking...
+Program Size: Code=6732 RO-data=236 RW-data=96 ZI-data=1640  
+"uart.axf" - 0 Error(s), 12 Warning(s).
+Build target 'LPC1768_SIM'
+compiling main.c...
+compiling funciones.c...
+funciones.c(148): warning:  #111-D: statement is unreachable
+funciones.c(151): warning:  #111-D: statement is unreachable
+funciones.c(154): warning:  #111-D: statement is unreachable
+funciones.c(157): warning:  #111-D: statement is unreachable
+funciones.c(160): warning:  #111-D: statement is unreachable
+funciones.c(163): warning:  #111-D: statement is unreachable
+funciones.c(166): warning:  #111-D: statement is unreachable
+funciones.c(169): warning:  #111-D: statement is unreachable
+funciones.c(172): warning:  #111-D: statement is unreachable
+funciones.c(175): warning:  #111-D: statement is unreachable
+funciones.c(178): warning:  #111-D: statement is unreachable
+funciones.c(181): warning:  #940-D: missing return statement at end of non-void function "conv7s"
+linking...
+Program Size: Code=6780 RO-data=236 RW-data=96 ZI-data=1640  
+"uart.axf" - 0 Error(s), 12 Warning(s).
+Build target 'LPC1768_SIM'
+compiling funciones.c...
+funciones.c(148): warning:  #111-D: statement is unreachable
+funciones.c(151): warning:  #111-D: statement is unreachable
+funciones.c(154): warning:  #111-D: statement is unreachable
+funciones.c(157): warning:  #111-D: statement is unreachable
+funciones.c(160): warning:  #111-D: statement is unreachable
+funciones.c(163): warning:  #111-D: statement is unreachable
+funciones.c(166): warning:  #111-D: statement is unreachable
+funciones.c(169): warning:  #111-D: statement is unreachable
+funciones.c(172): warning:  #111-D: statement is unreachable
+funciones.c(175): warning:  #111-D: statement is unreachable
+funciones.c(178): warning:  #111-D: statement is unreachable
+funciones.c(181): warning:  #940-D: missing return statement at end of non-void function "conv7s"
+linking...
+Program Size: Code=6808 RO-data=236 RW-data=96 ZI-data=1640  
+"uart.axf" - 0 Error(s), 12 Warning(s).

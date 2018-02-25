@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/alumno/Documents/Marcos y Manuel/Bin2bcd/bin2bcd.xst" -ofn "C:/Users/alumno/Documents/Marcos y Manuel/Bin2bcd/bin2bcd.syr" 
+xst -intstyle ise -ifn "C:/Users/alumno/Documents/Marcos y Manuel/Bin2bcd/bin2bcd.xst" -ofn "C:/Users/alumno/Documents/Marcos y Manuel/Bin2bcd/bin2bcd.syr" 
+xst -intstyle ise -ifn "D:/Programas/XILINX/Proyectos/Practica 1/Bin2bcd/bin2bcd.xst" -ofn "D:/Programas/XILINX/Proyectos/Practica 1/Bin2bcd/bin2bcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "bin2bcd.ngc" bin2bcd.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bin2bcd_map.ncd bin2bcd.ngd bin2bcd.pcf 
+par -w -intstyle ise -ol high -mt off bin2bcd_map.ncd bin2bcd.ncd bin2bcd.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml bin2bcd.twx bin2bcd.ncd -o bin2bcd.twr bin2bcd.pcf 
+bitgen -intstyle ise -f bin2bcd.ut bin2bcd.ncd 
+vhdtdtfi -lib work bin2bcd.vhd -prj Bin2bcd -o bin2bcd.spl -module bin2bcd -template D:/Programas/XILINX/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 bin2bcd.spl {D:/Programas/XILINX/Proyectos/Practica 1/Bin2bcd/bin2bcd.sym} 
+vhdtdtfi -prj Bin2bcd -o "D:/Programas/XILINX/Proyectos/Practica 1/Bin2bcd/bin2bcd.vhi" -module bin2bcd -template D:/Programas/XILINX/14.2/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work bin2bcd.vhd 
+vhdtdtfi -prj Bin2bcd -o "D:/Programas/XILINX/Proyectos/Practica 1/Bin2bcd/bin2bcd.vhi" -module bin2bcd -template D:/Programas/XILINX/14.2/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work bin2bcd.vhd 
+vhdtdtfi -prj Bin2bcd -o "D:/Programas/XILINX/Proyectos/Practica 1/Bin2bcd/bin2bcd.vhi" -module bin2bcd -template D:/Programas/XILINX/14.2/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work bin2bcd.vhd 

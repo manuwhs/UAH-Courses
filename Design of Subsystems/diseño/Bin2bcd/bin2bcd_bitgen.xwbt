@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Programas\XILINX\Proyectos\Practica 1\Bin2bcd\bin2bcd.ncd
+OUTFILE=D:\Programas\XILINX\Proyectos\Practica 1\Bin2bcd\bin2bcd.bit
+FAMILY=Spartan6
+PART=xc6slx4-3tqg144
+WORKINGDIR=D:\Programas\XILINX\Proyectos\Practica 1\Bin2bcd
+LICENSE=WebPack
+USER_INFO=210680555_0_0_054

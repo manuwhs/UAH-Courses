@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\alumno\Documents\Marcos y Manuel\Crono\Contador.ncd
+OUTFILE=C:\Users\alumno\Documents\Marcos y Manuel\Crono\Contador.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg324
+WORKINGDIR=C:\Users\alumno\Documents\Marcos y Manuel\Crono
+LICENSE=WebPack
+USER_INFO=__0_0_0

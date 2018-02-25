@@ -1,0 +1,35 @@
+# Reading C:/EDA/modeltech_6.5d/tcl/vsim/pref.tcl 
+# //  ModelSim SE 6.5d Nov 18 2009 
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do {Contador.fdo} 
+# Model Technology ModelSim SE vcom 6.5d Compiler 2009.11 Nov 18 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_signed
+# -- Compiling entity contador
+# -- Compiling architecture behavioral of contador
+# vsim -lib work -voptargs=\"+acc\" -t 1ps work.Contador 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.contador(behavioral)#1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body
+force  clk 0 0, 1 10, -repeat 20
+# ** Error: (vish-4008) Object 'clk' not found.
+# 
+force clk 0 0, 1 10 -repeat 20
+# ** Error: (vish-4008) Object 'clk' not found.
+# 

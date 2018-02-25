@@ -1,0 +1,91 @@
+# Reading D:/Programas/Modelsim/tcl/vsim/pref.tcl 
+# //  ModelSim SE 6.5d Nov 18 2009 
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do {Top_Systmem_tb.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE vcom 6.5d Compiler 2009.11 Nov 18 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity prescaler100to1
+# -- Compiling architecture prescaler100to1_a of prescaler100to1
+# -- Loading package textio
+# -- Loading package bip_utils_pkg_v2_0
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package xbip_counter_v2_0_pkg
+# -- Loading package c_counter_binary_v11_0_pkg
+# -- Loading package xbip_counter_v2_0_xst_comp
+# -- Loading entity c_counter_binary_v11_0
+# Model Technology ModelSim SE vcom 6.5d Compiler 2009.11 Nov 18 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity antirebote
+# -- Compiling architecture algoritmica of antirebote
+# Model Technology ModelSim SE vcom 6.5d Compiler 2009.11 Nov 18 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity fsm_lapso
+# -- Compiling architecture behavioral of fsm_lapso
+# Model Technology ModelSim SE vcom 6.5d Compiler 2009.11 Nov 18 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package numeric_std
+# -- Loading package vcomponents
+# -- Compiling entity dcm
+# -- Compiling architecture xilinx of dcm
+# Model Technology ModelSim SE vcom 6.5d Compiler 2009.11 Nov 18 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package numeric_std
+# -- Loading package vcomponents
+# -- Compiling entity dcm_exdes
+# -- Compiling architecture xilinx of dcm_exdes
+# Model Technology ModelSim SE vcom 6.5d Compiler 2009.11 Nov 18 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_signed
+# -- Compiling entity counter_model
+# -- Compiling architecture algoritmica of counter_model
+# Model Technology ModelSim SE vcom 6.5d Compiler 2009.11 Nov 18 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_signed
+# -- Compiling entity bin2bcd
+# -- Compiling architecture algoritmica of bin2bcd
+# Model Technology ModelSim SE vcom 6.5d Compiler 2009.11 Nov 18 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package vcomponents
+# -- Compiling entity top_systmem
+# -- Compiling architecture behavioral of top_systmem
+# Model Technology ModelSim SE vcom 6.5d Compiler 2009.11 Nov 18 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity top_systmem_tb
+# -- Compiling architecture behavior of top_systmem_tb
+# vsim -lib work -voptargs=\"+acc\" -t 1ps work.Top_Systmem_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized '1' FSM/s in design unit 'fsm_lapso.behavioral'.
+# Break key hit 
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./Top_Systmem_tb.fdo PAUSED at line 35
