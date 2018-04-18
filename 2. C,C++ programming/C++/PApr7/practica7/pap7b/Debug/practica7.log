@@ -1,0 +1,4 @@
+﻿  pap7.cpp
+     Creando biblioteca C:\Users\Natalia\Documents\Univerdidad 13-14\PA\Practicas\practica7\pap7b\Debug\practica7.lib y objeto C:\Users\Natalia\Documents\Univerdidad 13-14\PA\Practicas\practica7\pap7b\Debug\practica7.exp
+MemoryManager-vc2010-d.obj : warning LNK4204: falta información de depuración de 'C:\Users\Natalia\Documents\Univerdidad 13-14\PA\Practicas\practica7\pap7b\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+  practica7.vcxproj -> C:\Users\Natalia\Documents\Univerdidad 13-14\PA\Practicas\practica7\pap7b\Debug\practica7.exe

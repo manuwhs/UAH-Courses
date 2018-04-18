@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pap2b", "pap2b\pap2b.vcxproj", "{4DAA766B-FEAE-42C3-ADCA-624DE3369713}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DAA766B-FEAE-42C3-ADCA-624DE3369713}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4DAA766B-FEAE-42C3-ADCA-624DE3369713}.Debug|Win32.Build.0 = Debug|Win32
+		{4DAA766B-FEAE-42C3-ADCA-624DE3369713}.Release|Win32.ActiveCfg = Release|Win32
+		{4DAA766B-FEAE-42C3-ADCA-624DE3369713}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+﻿Compilación iniciada a las 30/09/2013 13:12:33.
+     1>Proyecto "C:\Users\Virgihc\Documents\Visual Studio 2010\Projects\pap2b\pap2b\pap2b.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Debug\pap2b.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CMatFloat.cpp
+         CMatFloat.cpp
+       ManifestResourceCompile:
+         Todas las salidas están actualizadas.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Virgihc\Documents\Visual Studio 2010\Projects\pap2b\Debug\pap2b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\pap2b.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Virgihc\Documents\Visual Studio 2010\Projects\pap2b\Debug\pap2b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Virgihc\Documents\Visual Studio 2010\Projects\pap2b\Debug\pap2b.lib" /MACHINE:X86 Debug\pap2b.exe.embed.manifest.res
+         Debug\CMatFloat.obj
+         Debug\pap2b.obj
+         Debug\utils.obj MemoryManager-vc2010-d.obj 
+     1>MemoryManager-vc2010-d.obj : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'MemoryManager-vc2010-d.obj' o en 'C:\Users\Virgihc\Documents\Visual Studio 2010\Projects\pap2b\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\pap2b.exe.embed.manifest" /manifest Debug\pap2b.exe.intermediate.manifest
+         Todas las salidas están actualizadas.
+       LinkEmbedManifest:
+         Todas las salidas están actualizadas.
+         pap2b.vcxproj -> C:\Users\Virgihc\Documents\Visual Studio 2010\Projects\pap2b\Debug\pap2b.exe
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\pap2b.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\pap2b.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Users\Virgihc\Documents\Visual Studio 2010\Projects\pap2b\pap2b\pap2b.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:14.24
